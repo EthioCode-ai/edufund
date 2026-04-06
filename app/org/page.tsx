@@ -700,6 +700,7 @@ export default function OrgPage() {
   if (state === 'unauthenticated') return (
     <div className="min-h-screen bg-slate-950 flex items-center justify-center px-4">
       <div className="text-center max-w-sm">
+        <a href="/" className="text-purple-400 text-sm hover:underline block mb-8">← Back to EduFund</a>
         <div className="w-16 h-16 rounded-full bg-rose-950 border border-rose-800 flex items-center justify-center mx-auto mb-4">
           <AlertCircle size={28} className="text-rose-400" />
         </div>
